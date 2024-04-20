@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 75px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+@import "./pages/about/about";
+@import "./pages/blog/blog";
+@import "./pages/careers/careers";
+@import "./pages/home/home";
+@import "./pages/services/services";
+@import "./components/NotFound";
+@import "./components/header";
+@import "./components/footer";
+@import "./static/navLink";

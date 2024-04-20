@@ -1,0 +1,35 @@
+header {
+  padding: 16px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 3px 3px 5px rgba(188, 188, 188, 0.2);
+  background: #fff;
+  nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+    .menu {
+      display: none;
+      font-size: 40px;
+    }
+  }
+  @media only screen and (max-width: 738px) {
+    .container {
+      padding: 0;
+    }
+    nav {
+      .logo {
+        padding-left: 20px;
+      }
+      .menu {
+        display: block;
+        padding-right: 20px;
+      }
+    }
+  }
+}

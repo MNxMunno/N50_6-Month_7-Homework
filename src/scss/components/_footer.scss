@@ -1,0 +1,113 @@
+footer {
+  background: #063255;
+  position: relative;
+  .right {
+    position: absolute;
+    top: 38px;
+    right: 0;
+  }
+  .left {
+    // position: absolute;
+    margin-top: -400px;
+    left: 0;
+    bottom: 0;
+  }
+  .footer-content {
+    .footer__cards {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 45px;
+      padding: 80px 0;
+      .footer__card {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        .svg {
+          a {
+            svg {
+              fill: #fff;
+            }
+          }
+        }
+        h5 {
+          max-width: 452px;
+          color: #fff;
+
+          /* H2 Heading */
+          font-family: sans-serif;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 58px; /* 120.833% */
+          padding-top: 32px;
+        }
+        p {
+          color: #fff;
+
+          /* H4 Heading */
+          font-family: sans-serif;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 36px; /* 150% */
+          padding: 40px 0 28px;
+        }
+
+        a {
+          color: #fff;
+
+          /* H6 Heading */
+          font-family: sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px; /* 175% */
+        }
+        h6 {
+          cursor: pointer;
+          color: #fff;
+
+          /* H6 Heading */
+          font-family: sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 28px; /* 175% */
+          a {
+            cursor: pointer;
+            color: #fff;
+
+            /* H6 Heading */
+            font-family: sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px; /* 175% */
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 999px) {
+    margin-top: 0px;
+    .footer-content {
+      .footer__cards {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+        padding-bottom: 60px;
+        .footer__card {
+          h5 {
+            font-size: 28px;
+            line-height: 48px;
+          }
+          width: 269px;
+        }
+      }
+    }
+  }
+}

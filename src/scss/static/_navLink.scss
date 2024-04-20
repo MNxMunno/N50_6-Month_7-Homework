@@ -1,0 +1,39 @@
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  transition: 0.3s linear;
+  .nav__link {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #394149;
+  }
+  .nav__btn {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.04px;
+    text-align: left;
+    color: #f58a07;
+    background: #f58a072c;
+    padding: 10px 15px;
+    border-radius: 31px;
+  }
+  @media only screen and (max-width: 738px) {
+    & {
+      position: absolute;
+      flex-direction: column;
+      top: -700px;
+      width: 100%;
+      background: #fff;
+      padding: 10px;
+      opacity: 0.95;
+      &.show {
+        top: 70px;
+      }
+    }
+  }
+}
