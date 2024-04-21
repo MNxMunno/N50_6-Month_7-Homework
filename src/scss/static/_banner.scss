@@ -31,4 +31,11 @@
       padding: 12px 0 32px;
     }
   }
+  @media only screen and (max-width: 999px) {
+    .card {
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
 }
