@@ -7,12 +7,14 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
   let navigation = useNavigate();
+
   const [toggel, setToggel] = useState(false);
+
   return (
     <header>
       <div className="container">
         <nav>
-          <a className="logo" href="#" onClick={() => navigation("/")}>
+          <a className="logo" onClick={() => navigation("/")}>
             <img src={Logo} alt="log" />
           </a>
           <div className={`nav__items ${toggel ? "show" : ""}`}>

@@ -1,0 +1,14 @@
+.btn_static {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.04px;
+  color: #fff;
+  background: #f58a07;
+  transition: 0.2s;
+  padding: 18px 32px;
+  border-radius: 27px;
+  &:hover {
+    background: #dc8110;
+  }
+}

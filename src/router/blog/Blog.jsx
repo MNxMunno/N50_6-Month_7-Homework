@@ -3,7 +3,13 @@ import React from "react";
 import Main from "../../components/main/Main";
 
 const Blog = () => {
-  return <Main />;
+  const data = {
+    img: "https://i.postimg.cc/sDQ1JFkw/blog-hero.png",
+    title: "Our internal process and longerm vision",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique",
+  };
+  return <Main {...data} />;
 };
 
 export default Blog;
