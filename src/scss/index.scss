@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  padding-top: 75px;
+  padding-top: 69px;
 }
 
 .container {
@@ -34,5 +34,7 @@ button {
 @import "./pages/services/services";
 @import "./components/NotFound";
 @import "./components/header";
+@import "./components/main";
 @import "./components/footer";
 @import "./static/navLink";
+@import "./static/product";

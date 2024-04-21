@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import Main from "../../components/main/Main";
 
 const Careers = () => {
-  return <div>Careers</div>;
+  return <Main />;
 };
 
 export default Careers;
