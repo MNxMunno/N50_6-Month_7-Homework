@@ -51,13 +51,4 @@
       box-shadow: 3px 3px 5px rgba(74, 74, 74, 0.2);
     }
   }
-  @media only screen and (max-width: 999px) {
-    .card {
-      &__content {
-        h2 {
-          font-size: 40px;
-        }
-      }
-    }
-  }
 }

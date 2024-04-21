@@ -16,4 +16,14 @@ main {
       }
     }
   }
+
+  @media only screen and (max-width: 999px) {
+    .product {
+      .content {
+        h1 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
 }
