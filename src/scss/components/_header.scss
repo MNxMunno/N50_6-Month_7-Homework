@@ -26,6 +26,9 @@ header {
         line-height: 24px;
         text-align: left;
         color: #394149;
+        &.active {
+          color: red;
+        }
       }
       .nav__btn {
         font-family: sans-serif;
